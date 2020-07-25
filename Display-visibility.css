@@ -1,0 +1,30 @@
+/*Take out the comments around each rule.
+
+Try changing the display property*/
+
+
+
+span{
+     background-color: red;
+     display: block; 
+     float: left;
+}
+
+p{
+		  background-color: yellow;
+/*       padding: 25px; */
+		clear: both;
+}
+
+     
+div{
+       width: 50%;
+       height: 50px;
+       margin:40px;
+       background-color: green;
+       overflow:scroll;  /* overflow:auto; possibilita rolar (auto se auterarem a pagina ira aparecer*\
+
+        display: inline-block; /*-- em uma fileitaa *\
+		  
+              */
+}
