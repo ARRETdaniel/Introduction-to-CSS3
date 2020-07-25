@@ -1,0 +1,28 @@
+/*Uncomment each line one by one*/
+
+
+/*span{
+  display:inline-block;
+}*/
+body{
+	display: table;
+}
+
+
+ 
+ div{
+ 	width: 30%;
+ 	background: #00ffff;
+ 	height: 400px;
+  	display:inline-block;
+  	float: left;
+  	overflow: auto;
+}  
+
+/*div{
+  float:left;
+}*/
+
+/*div{
+  float:right;
+}*/
