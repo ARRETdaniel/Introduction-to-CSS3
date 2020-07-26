@@ -1,0 +1,23 @@
+h1{
+	color:red;
+	font-family: Courier, Arial;
+}
+
+p{
+	color:red;
+	font-family: Arial;
+}
+
+
+/*   Usufull stuff               */
+@font-face{
+	font-family: Myfont;
+	src: url('fonte.ttf');
+}
+
+h1{
+	line-height: 50%;
+}
+h1{
+	line-height: 200%;
+}
