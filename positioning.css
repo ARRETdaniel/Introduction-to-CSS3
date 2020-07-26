@@ -1,0 +1,53 @@
+div{
+	box-sizing: border-box;
+	border:1px solid #000000;
+	width:100px;
+	height: 100px;
+	margin:2%;
+	padding: 2%;
+	display: inline-block;
+	transition: 2s ease;
+}
+div:hover{
+	width:200px;
+	background-color: #800040;
+}
+div:focus{
+	background-color: #ffff00;
+}
+
+/*Make sure to scroll down!*/
+div{
+	position:relative;
+	border:5px solid black;
+	height:300px;
+	width:400px;
+}
+p{
+	border:1px solid red;
+	width:50%;	
+	position:static;
+	top:100px;
+	left:100px;
+
+	/*The code below removes default browser styling.*/
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+/*TEST ME!!
+	1) Open this page and look at it.  The 	
+		paragraphs are all in their default
+		location.  The top/left values are 
+		ignored.
+	2) Using Inspect Element, uncomment the
+		next line so the position is relative.
+		Each of the paragraphs have moved from 
+		their ORIGINAL position
+	3) Change the position to absolute.  Now they
+		are placed 100 right 100 down from their PARENT
+	4) Change the position to fixed.  Now they 	
+		are placed 100 down and 100 right from the BROWSER*/
+
